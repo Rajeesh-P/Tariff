@@ -1,0 +1,14 @@
+{
+    "name": "rajeesh/tariff",
+    "autoload": {
+        "psr-4": {
+            "Tariff\\CompareTariff\\": "src/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
